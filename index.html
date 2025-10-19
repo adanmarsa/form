@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-side">
+        <div class="logo">
+          <!-- <img src="images/logoc.png" alt="mancity logo" /> -->
+        </div>
+      </div>
+      <div class="right-side">
+        <form action="#signUp">
+          <div class="welcome-message">
+            <p>
+              Welcome to the official sign up page of Manchester City Football
+              Club
+            </p>
+          </div>
+          <div class="input-area">
+            <label for="first-name">FIRST NAME</label>
+            <input
+              type="text"
+              id="first-name"
+              placeholder="John"
+              name="first_name"
+              required
+            />
+            <label for="last-name">LAST NAME</label>
+            <input
+              type="text"
+              id="last-name"
+              placeholder="Doe"
+              name="last_name"
+              required
+            />
+            <label for="email">EMAIL</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="example@emial.com"
+              name="email"
+            />
+            <label for="number">NUMBER</label>
+            <input
+              type="number"
+              id="number"
+              placeholder="0789535689"
+              name="number"
+            />
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" name="password" required />
+            <label for="confirm-password">CONFIRM PASSWORD</label>
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm_password"
+              required
+            />
+          </div>
+          <div class="submit-area">
+            <button>Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
