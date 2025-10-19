@@ -16,7 +16,7 @@ body {
   display: flex;
   background-color: var(--mancity-color);
   flex: 1;
-  background-image: url(/images/logoc.png);
+  background-image: url(images/logoc.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
